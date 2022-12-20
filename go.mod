@@ -6,7 +6,7 @@ replace google.golang.org/grpc => google.golang.org/grpc v1.29.1
 
 require (
 	github.com/Laisky/graphql v1.0.5
-	github.com/Masterminds/sprig/v3 v3.2.2
+	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/aws/aws-sdk-go v1.31.15 // indirect
 	github.com/bradleyfalzon/ghinstallation v1.1.1
@@ -56,7 +56,7 @@ require (
 	github.com/zclconf/go-cty v1.5.1 // indirect
 	go.etcd.io/bbolt v1.3.6
 	go.uber.org/zap v1.18.1
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/crypto v0.3.0
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v9 v9.31.0
 	gopkg.in/yaml.v2 v2.4.0
