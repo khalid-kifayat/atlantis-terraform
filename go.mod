@@ -16,13 +16,11 @@ require (
 	github.com/docker/docker v0.0.0-20180620051407-e2593239d949
 	github.com/elazarl/go-bindata-assetfs v1.0.1
 	github.com/flynn-archive/go-shlex v0.0.0-20150515145356-3f9db97f8568
-	github.com/fsnotify/fsnotify v1.4.10-0.20200417215612-7f4cf4dd2b52 // indirect
 	github.com/go-ozzo/ozzo-validation v0.0.0-20170913164239-85dcd8368eba
 	github.com/go-playground/locales v0.12.1 // indirect
 	github.com/go-playground/universal-translator v0.16.0 // indirect
 	github.com/go-test/deep v1.0.7
 	github.com/google/go-github/v31 v31.0.0
-	github.com/google/uuid v1.1.2-0.20200519141726-cb32006e483f // indirect
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/hashicorp/go-getter v1.5.5
@@ -48,15 +46,15 @@ require (
 	github.com/sirupsen/logrus v1.6.1-0.20200528085638-6699a89a232f // indirect
 	github.com/spf13/cobra v0.0.0-20170905172051-b78744579491
 	github.com/spf13/pflag v1.0.5
-	github.com/spf13/viper v1.8.1
-	github.com/stretchr/testify v1.7.0
+	github.com/spf13/viper v1.14.0
+	github.com/stretchr/testify v1.8.1
 	github.com/urfave/cli v1.22.5
 	github.com/urfave/negroni v0.3.0
 	github.com/xanzy/go-gitlab v0.50.1
 	github.com/zclconf/go-cty v1.5.1 // indirect
 	go.etcd.io/bbolt v1.3.6
-	go.uber.org/zap v1.18.1
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	go.uber.org/zap v1.21.0
+	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v9 v9.31.0
 	gopkg.in/yaml.v2 v2.4.0
