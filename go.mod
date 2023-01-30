@@ -5,6 +5,7 @@ go 1.16
 replace google.golang.org/grpc => google.golang.org/grpc v1.29.1
 
 require (
+	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	github.com/Laisky/graphql v1.0.5
 	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/agext/levenshtein v1.2.3 // indirect
@@ -22,7 +23,6 @@ require (
 	github.com/go-playground/universal-translator v0.16.0 // indirect
 	github.com/go-test/deep v1.0.7
 	github.com/google/go-github/v31 v31.0.0
-	github.com/google/uuid v1.1.2-0.20200519141726-cb32006e483f // indirect
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/hashicorp/go-getter v1.5.5
@@ -49,14 +49,14 @@ require (
 	github.com/spf13/cobra v0.0.0-20170905172051-b78744579491
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.8.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	github.com/urfave/cli v1.22.5
 	github.com/urfave/negroni v0.3.0
-	github.com/xanzy/go-gitlab v0.50.1
+	github.com/xanzy/go-gitlab v0.79.0
 	github.com/zclconf/go-cty v1.5.1 // indirect
 	go.etcd.io/bbolt v1.3.6
 	go.uber.org/zap v1.18.1
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v9 v9.31.0
 	gopkg.in/yaml.v2 v2.4.0
